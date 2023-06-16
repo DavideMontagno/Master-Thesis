@@ -14,7 +14,7 @@ A Mixed Integer Linear Programming (MILP) optimization problem that aims at dete
 DO NOT DELETE ANY FOLDER
 
 ## Directory Structure
-
+```
 src
 ├── .metadata
 ├── cache
@@ -27,7 +27,7 @@ src
 ├── create_R.ipynb
 ├── parse_table.ipynb
 └── syn_data.ipynb
-
+```
 To use the project, follow these steps:
 
 1. Change the parameters of the network (base station and drones) in the `conf_project.yaml` file.
