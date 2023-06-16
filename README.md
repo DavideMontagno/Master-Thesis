@@ -38,11 +38,13 @@ src
 ```
 DO NOT DELETE ANY FOLDER or any of this file.
 
+
+
+## Computing Request Dataset
+
 To use the project, follow these steps:
 
 To use the `compute_grid.ipynb` notebook, you need to provide an input dataset with the same features as the [Beijing-Trajectories-Project](https://github.com/jbremz/Beijing-Trajectories-Project) dataset. Place the downloaded dataset file in the `dataset` directory.
-
-## Computing Request Dataset
 
 Once you have the input dataset, you can proceed to compute the set of requests (R) to be fed as input to our model. This step can be achieved by executing the `compute_R.ipynb` notebook.
 
