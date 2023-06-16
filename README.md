@@ -19,9 +19,9 @@ A Mixed Integer Linear Programming (MILP) optimization problem that aims at dete
 ├───.metadata
 ├───cache
 ├───opl
-│ ├───Test
-│ │ ├───find_min_drones.ipynb
-│ │ └───main.ipynb
+│ └───Test
+│ ├───find_min_drones.ipynb
+│ └───main.ipynb
 ├───compute_grid.ipynb
 ├───conf_project.yaml
 ├───create_R.ipynb
