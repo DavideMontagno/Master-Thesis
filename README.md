@@ -13,6 +13,11 @@ A Mixed Integer Linear Programming (MILP) optimization problem that aims at dete
 
 DO NOT DELETE ANY FOLDER
 
+## Prerequisite
+
+1. IBM ILOG CPLEX Optimization Studio 12.10.0
+2. Install all dependency using `requirements.txt`
+
 ## Directory Structure
 ```
 src
@@ -29,6 +34,19 @@ src
 └── syn_data.ipynb
 ```
 To use the project, follow these steps:
+
+To use the `compute_grid.ipynb` notebook, you need to provide an input dataset with the same features as the [Beijing-Trajectories-Project](https://github.com/jbremz/Beijing-Trajectories-Project) dataset. Place the downloaded dataset file in the `dataset` directory.
+
+## Computing Request Set
+
+Once you have the input dataset, you can proceed to compute the set of requests (R) to be fed as input to our model. This step can be achieved by executing the `compute_R.ipynb` notebook.
+
+## Synthetic Dataset Generation
+
+Alternatively, if you don't have access to the Beijing Trajectories dataset or want to generate a synthetic dataset, you can use the `syn_data.ipynb` notebook. 
+
+
+To get the results:
 
 1. Change the parameters of the network (base station and drones) in the `conf_project.yaml` file.
 
