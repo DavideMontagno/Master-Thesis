@@ -39,11 +39,11 @@ To use the project, follow these steps:
 
 To use the `compute_grid.ipynb` notebook, you need to provide an input dataset with the same features as the [Beijing-Trajectories-Project](https://github.com/jbremz/Beijing-Trajectories-Project) dataset. Place the downloaded dataset file in the `dataset` directory.
 
-## Computing Request Set
+## Computing Request Dataset
 
 Once you have the input dataset, you can proceed to compute the set of requests (R) to be fed as input to our model. This step can be achieved by executing the `compute_R.ipynb` notebook.
 
-## Synthetic Dataset Generation
+## Input Dataset Generation
 
 Alternatively, if you don't have access to the Beijing Trajectories dataset or want to generate a synthetic dataset starting from date got from the previous step, you can use the `syn_data.ipynb` notebook. 
 
