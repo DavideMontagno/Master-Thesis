@@ -5,13 +5,12 @@ This repository contains the source code for the paper (1570909988) A VNF-Chaini
 
 - [Overview](#overview)
 - [Directory Structure](#directory-structure)
+- [Prerequisite](#directory-structure)
 - [Usage](#usage)
 
 ## Overview
 
 A Mixed Integer Linear Programming (MILP) optimization problem that aims at determining the placement of VNF chains by taking into account the limited resources on board of UAVs, including energy, and that aims at maximizing the UAVs operational lifetime.
-
-DO NOT DELETE ANY FOLDER
 
 ## Prerequisite
 
@@ -19,6 +18,7 @@ DO NOT DELETE ANY FOLDER
 2. Install all dependency using `requirements.txt`
 
 ## Directory Structure
+
 ```
 src
 ├── .metadata
@@ -33,6 +33,8 @@ src
 ├── parse_table.ipynb
 └── syn_data.ipynb
 ```
+DO NOT DELETE ANY FOLDER or any of this file.
+
 To use the project, follow these steps:
 
 To use the `compute_grid.ipynb` notebook, you need to provide an input dataset with the same features as the [Beijing-Trajectories-Project](https://github.com/jbremz/Beijing-Trajectories-Project) dataset. Place the downloaded dataset file in the `dataset` directory.
