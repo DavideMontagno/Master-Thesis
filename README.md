@@ -11,23 +11,22 @@ This repository contains the source code for the paper (1570909988) A VNF-Chaini
 
 A Mixed Integer Linear Programming (MILP) optimization problem that aims at determining the placement of VNF chains by taking into account the limited resources on board of UAVs, including energy, and that aims at maximizing the UAVs operational lifetime.
 
+DO NOT DELETE ANY FOLDER
+
 ## Directory Structure
 
-├───raw_data
-├───res
-└───src
-├───.metadata
-├───cache
-├───opl
-│ └───Test
-│ ├───find_min_drones.ipynb
-│ └───main.ipynb
-├───compute_grid.ipynb
-├───conf_project.yaml
-├───create_R.ipynb
-├───parse_table.ipynb
-└───syn_data.ipynb
-
+src
+├── .metadata
+├── cache
+├── opl
+│   └── Test
+│       ├── find_min_drones.ipynb
+│       └── main.ipynb
+├── compute_grid.ipynb
+├── conf_project.yaml
+├── create_R.ipynb
+├── parse_table.ipynb
+└── syn_data.ipynb
 
 To use the project, follow these steps:
 
