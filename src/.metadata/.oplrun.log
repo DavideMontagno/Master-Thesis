@@ -1,0 +1,12 @@
+!SESSION 2023-04-16 14:27:40.488 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=8.0.5.41 - pwa6480sr5fp41-20190919_01(SR5 FP41)
+JRE 1.8.0 Windows 10 amd64-64-Bit Compressed References 20190911_427071 (JIT enabled, AOT enabled)
+OpenJ9   - d581d49
+OMR      - ca4db84
+IBM      - 5cfdf9c
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -clean -nl en_US -configuration C:\Users\montagno\Documents\Repositories-Git\MasterThesis\src\.metadata\workspace_oplrun
+
+!ENTRY ilog.odms.ide.opllang.remote 1 0 2023-04-16 14:27:40.497
+!MESSAGE Run Configuration1 in C:/Users/montagno/Documents/Repositories-Git/MasterThesis/src/opl/Test

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+	<version>1.0</version>
+	<description>Test</description>
+	<configs>
+		<config default="true" name="Configuration1" category="opl">
+			<ref name="ExecuteModel.mod" type="model">
+			</ref>
+			<ref name="Created.dat" type="data">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

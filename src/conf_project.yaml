@@ -1,0 +1,77 @@
+#centralized model
+dpi: 800
+node_size: 100
+find_min_drones: True
+minmax: "minimize"
+#Nokia Flexi Multiradio 10 System Module - Interface OBSAI RP3-01 provide up to 6.144 Gbps of bandwidth for high-speed data transfer.
+#https://www.mti-mobile.com/wp-content/uploads/2012/10/6Gbit_OBSAI_Demonstration.pdf
+#https://cosconor.fr/GSM/Divers/Equipment/Nokia/Airscale%20system%20module%20product%20description.pdf (pagina 36 - rf1..6)
+Max_Capacity_BS: 34000 #Mbps (6 Gbps)
+Workloads_rs: [[[500.0, 475.0], [500.0, 475.0], [500.0, 490.0], [500.0, 410.0], [500.0, 455.0], [500.0, 495.0], [500.0, 460.0], [500.0, 485.0], [500.0, 440.0], [500.0, 425.0], [500.0, 465.0], [500.0, 485.0], [500.0, 430.0], [500.0, 430.0], [500.0, 415.0], [500.0, 480.0], [500.0, 450.0], [500.0, 420.0], [500.0, 405.0], [500.0, 465.0], [500.0, 465.0], [500.0, 450.0], [500.0, 470.0], [500.0, 495.0], [500.0, 405.0], [500.0, 495.0], [500.0, 415.0], [500.0, 495.0], [500.0, 460.0], [500.0, 430.0], [500.0, 450.0], [500.0, 425.0], [500.0, 485.0], [500.0, 420.0], [500.0, 405.0], [500.0, 475.0], [500.0, 440.0], [500.0, 445.0], [500.0, 465.0], [500.0, 450.0], [500.0, 440.0], [500.0, 420.0], [500.0, 450.0], [500.0, 405.0], [500.0, 420.0], [500.0, 485.0], [500.0, 430.0], [500.0, 475.0], [500.0, 420.0], [500.0, 405.0], [500.0, 415.0, 315.4], [500.0, 465.0, 320.85], [500.0, 460.0, 326.6], [500.0, 495.0, 306.9], [500.0, 440.0, 281.6], [500.0, 480.0, 331.2], [500.0, 450.0, 274.5], [500.0, 455.0, 323.05], [500.0, 415.0, 278.05], [500.0, 445.0, 293.7], [500.0, 410.0, 266.5], [500.0, 490.0, 357.7], [500.0, 435.0, 334.95], [500.0, 405.0, 267.3], [500.0, 470.0, 324.3], [500.0, 405.0, 295.65], [500.0, 465.0, 288.3], [500.0, 495.0, 306.9], [500.0, 440.0, 272.8], [500.0, 475.0, 294.5], [500.0, 425.0, 284.75], [500.0, 475.0, 356.25], [500.0, 450.0, 279.0], [500.0, 420.0, 273.0], [500.0, 475.0, 323.0], [500.0, 425.0, 276.25, 129.8375], [500.0, 475.0, 308.75, 163.6375], [500.0, 485.0, 305.55, 155.8305], [500.0, 495.0, 386.1, 204.633], [500.0, 410.0, 282.9, 144.279], [500.0, 435.0, 295.8, 141.984], [500.0, 435.0, 321.9, 167.38799999999998], [500.0, 445.0, 324.85, 149.431], [500.0, 450.0, 342.0, 171.0], [500.0, 460.0, 299.0, 152.49], [500.0, 435.0, 291.45, 151.554], [500.0, 460.0, 312.8, 159.528], [500.0, 470.0, 319.6, 166.192], [500.0, 450.0, 283.5, 147.42], [500.0, 415.0, 261.45, 135.954], [500.0, 435.0, 339.3, 169.65], [500.0, 415.0, 253.15, 131.638], [500.0, 405.0, 279.45, 153.6975], [500.0, 440.0, 303.6, 148.764], [500.0, 430.0, 279.5, 136.955], [500.0, 470.0, 343.1, 202.42900000000003], [500.0, 450.0, 324.0, 187.92], [500.0, 405.0, 311.85, 159.0435], [500.0, 475.0, 332.5, 166.25], [500.0, 485.0, 373.45, 171.787]]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Ideal drone (do not exists a drone that takes in input data load, only trasmission or commands.)
+
+Capacity_CPU_d: [ 4000,]  #Mbps 
+Capacity_Radio_d: [2000,] #Mbps
+
+#"Empirical Power Consumption Model for UAVs - OPUS at UTS" power consumption values in watts for various flight scenarios of a small quadrotor UAV
+
+#The power consumption during hover was found to be in the range of approximately 100-500 watts for the configurations tested.
+#The power consumption during forward flight at a speed of 5 m/s varied between approximately 200-300 watts, depending on the payload weight and battery type.
+#The power consumption during ascent at a rate of 1 m/s varied between approximately 200-400 watts, depending on the payload weight and battery type.
+#The power consumption during descent at a rate of 1 m/s varied between approximately 150-300 watts, depending on the payload weight and battery type.
+InstPowerVolo: [100,]
+#Empirical Power Consumption Model for UAVs" by S. Khan et al. (2016) 
+#Power consumption:  UAV 8.2412, 8.2618W watts #Intel Aero Ready to Fly
+Cost_Radio_d: [  8 , ] 
+Cost_CPU_d: [ 8.5,] 
+
+Cost_CPU_d_idle: [2.83,]
+Cost_Radio_d_idle: [2.66,] 
+#mAh X voltage x 3.6 = Joules of energy 
+BJ: [ 277200]
+
+#mAh = (Joules / Voltage) * 1000
+CA: [5544] #(416 mAh,3.7V)
+CB: [5544]

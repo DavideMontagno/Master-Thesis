@@ -1,0 +1,27 @@
+/*********************************************
+ * OPL 12.10.0.0 Data
+ * Author: Davide Montagno B
+ * Creation Date: 05 gen 2023 at 13:42:41
+ *********************************************/
+ 
+Drones =  { 0, 1};  //index sets for
+Reqs = {0,1};
+
+Capacity_CPU_d = [ 20 , 20 ]; 
+Capacity_Radio_d = [20 , 20]; 
+InstPowerVolo = [20]
+CA = [10, 10];
+CB =[10,10];
+Cost_CPU_d = [ 5 , 10 ]; 
+Cost_CPU_d_idle = [10, 10];
+Cost_Radio_d_idle = [10, 10];
+Cost_Radio_d = [1 , 1]; 
+
+Cost_CPU_d_idle = [10, 10, 10];
+Cost_Radio_d_idle = [10, 10, 10];
+Max_Capacity_BS = 12;
+Max_Capacity_BS2 = 12;
+Workloads_r = [[20,15,11,5],[10,4] ];
+Length_VNF_r = [3,1];
+BJ = [ 150, 30.0 ];
+length_max=3;
