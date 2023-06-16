@@ -20,6 +20,9 @@ A Mixed Integer Linear Programming (MILP) optimization problem that aims at dete
 ## Directory Structure
 
 ```
+dataset
+raw_data
+res
 src
 ├── .metadata
 ├── cache
