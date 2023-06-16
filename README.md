@@ -15,7 +15,7 @@ A Mixed Integer Linear Programming (MILP) optimization problem that aims at dete
 ## Prerequisite
 
 1. IBM ILOG CPLEX Optimization Studio 12.10.0
-2. Install all dependency using `requirements.txt`
+2. https://scikit-mobility.github.io/scikit-mobility/
 
 ## Directory Structure
 
