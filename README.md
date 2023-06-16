@@ -45,7 +45,7 @@ Once you have the input dataset, you can proceed to compute the set of requests 
 
 ## Synthetic Dataset Generation
 
-Alternatively, if you don't have access to the Beijing Trajectories dataset or want to generate a synthetic dataset, you can use the `syn_data.ipynb` notebook. 
+Alternatively, if you don't have access to the Beijing Trajectories dataset or want to generate a synthetic dataset starting from date got from the previous step, you can use the `syn_data.ipynb` notebook. 
 
 
 To get the results:
