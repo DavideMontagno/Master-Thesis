@@ -1,6 +1,5 @@
 # Master-Thesis
-This repository contains the source code for the paper (1570909988) A VNF-Chaining Approach for Enhancing Ground Network with UAVs in a Crowd-Based Environment
-
+This repository contains the source code for the paper (1570909988) A VNF-Chaining Approach for Enhancing Ground Network with UAVs in a Crowd-Based Environment which has undergone peer review and accepted for the presentation at  Management of Cloud and Smart city systems (MoCS 2023) hield in conjuction with  International Symposium on Computers and Communications (IEEE ISCC 2023)
 ## Table of Contents
 
 - [Overview](#overview)
